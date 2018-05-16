@@ -1,31 +1,33 @@
-body{
+body {
+
     background-image: url("https://github.com/codincamp/challenge_1/blob/master/images/bg.jpg?raw=true");
 }
-header,main{
+
+header, main {
     width: 1020px;
+    box-sizing: border-box;
 }
-
-
 
 /*Header*/
 
 header {
-
     height: 380px;
     margin: auto;
     background-color: black;
-    position:relative;
+    position: relative;
 }
+
 /*----------------------------------------------------------------------------------------------------*/
 
-
 /*nav*/
-nav{
+
+nav {
     height: 60px;
     width: 1020px;
     margin: auto;
 }
-nav li{
+
+nav li {
     display: inline-block;
     margin: auto;
     text-transform: uppercase;
@@ -33,7 +35,8 @@ nav li{
     font-size: 14px;
     padding: 6px;
 }
-nav a{
+
+nav a {
     color: white;
     text-decoration: none;
 }
@@ -42,42 +45,48 @@ nav a:hover {
     color: #cfa205;
     font-style: italic;
 }
-nav ul{
+
+nav ul {
     margin: auto;
     text-align: center;
 }
+
 /*Fin nav*/
 
 /*----------------------------------------------------------------------------------------------------*/
 
 /*Title*/
-h1{
+
+h1 {
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
-    font-size:133px;
-    color:#cfa205;
+    font-size: 133px;
+    color: #cfa205;
     text-transform: uppercase;
     margin: 1% 0 4%
 }
-h2{
+
+h2 {
     text-align: center;
     font-family: 'Bitter', serif;
     text-transform: uppercase;
     font-size: 18px;
     color: #cfa205;
-
 }
+
 /*Fin title*/
 
 /*----------------------------------------------------------------------------------------------------*/
 
 /*Social media*/
-.social_media li{
+
+.social_media li {
     display: inline-block;
     margin: auto;
     padding: 0 0.5%;
 }
-.social_media{
+
+.social_media {
     width: 1020px;
     text-align: center;
     background-color: #e8e8e8;
@@ -92,56 +101,84 @@ h2{
 
 /*fin social media*/
 
-
-
 /*Fin header*/
 
 /*----------------------------------------------------------------------------------------------------*/
 
 /*main*/
-main{
-    height:690px;
+
+main {
+    height: 690px;
     margin: auto;
     background-color: white;
     position: relative;
-    padding:  60px;
+    padding: 60px;
 }
 
 main>p {
+    line-height: 160%;
+    font-weight: bold;
     text-align: center;
-    font-size: 14px;
+    font-size: 18px;
     color: #7a7a7a;
     font-family: 'Bitter', serif;
-    padding:  auto;
-
+    padding: auto;
 }
+
 /*----------------------------------------------------------------------------------------------------*/
-hr{
 
+hr {
+    border: 0.7px solid #E0E0E0;
+    margin: 7% 0;
 }
+
 /*article*/
+
 article {
     display: inline-block;
     margin: auto;
-
-
-}
-.theme_list img {
     width: 260px;
-    height: 195px;
 }
-.theme_list{
+
+article img {
+    width: 260px;
+}
+
+.middle_article {
+    padding: 0 56px;
+}
 
 
-}
-.theme_list p{
+.theme_list p {
     font-size: 14px;
     font-family: 'Bitter', serif;
-    height: 480px;
     width: 260px;
+    line-height: 160%;
+    color: #7a7a7a;
 }
 
+h3 {
+    text-transform: uppercase;
+    padding: 9% 0;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
 /*Fin article*/
+main+a{
+    display: block;
+    position: fixed;
+    color: rgba(0, 0, 0, 0.5);
+    right: 70px;
+    bottom: 18px;
+    font-size: 2.5em;
+
+
+}
 
 /*----------------------------------------------------------------------------------------------------*/
 
