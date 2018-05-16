@@ -1,19 +1,21 @@
 body{
-/*    background-image: url("https://github.com/codincamp/challenge_1/blob/master/images/bg.jpg?raw=true");
-*/}
+    background-image: url("https://github.com/codincamp/challenge_1/blob/master/images/bg.jpg?raw=true");
+}
+header,main{
+    width: 1020px;
+}
 
 
 
 /*Header*/
 
 header {
-    width: 1020px;
+
     height: 380px;
     margin: auto;
     background-color: black;
     position:relative;
 }
-
 /*----------------------------------------------------------------------------------------------------*/
 
 
@@ -99,13 +101,45 @@ h2{
 /*main*/
 main{
     height:690px;
-    width: 1020px;
     margin: auto;
     background-color: white;
+    position: relative;
+    padding:  60px;
+}
+
+main>p {
+    text-align: center;
+    font-size: 14px;
+    color: #7a7a7a;
+    font-family: 'Bitter', serif;
+    padding:  auto;
+
 }
 /*----------------------------------------------------------------------------------------------------*/
+hr{
 
+}
 /*article*/
+article {
+    display: inline-block;
+    margin: auto;
+
+
+}
+.theme_list img {
+    width: 260px;
+    height: 195px;
+}
+.theme_list{
+
+
+}
+.theme_list p{
+    font-size: 14px;
+    font-family: 'Bitter', serif;
+    height: 480px;
+    width: 260px;
+}
 
 /*Fin article*/
 
