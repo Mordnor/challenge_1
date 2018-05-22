@@ -7,7 +7,9 @@ header, main {
     width: 1020px;
     box-sizing: border-box;
 }
-
+#current_page{
+    color:#cfa205;
+}
 /*Header*/
 
 header {
@@ -87,7 +89,7 @@ h2 {
 }
 
 .social_media {
-    width: 1020px;
+    width: 100%;
     text-align: center;
     background-color: #e8e8e8;
     position: absolute;
@@ -108,7 +110,7 @@ h2 {
 /*main*/
 
 main {
-    height: 690px;
+
     margin: auto;
     background-color: white;
     position: relative;
@@ -116,7 +118,7 @@ main {
 }
 
 main>p {
-    line-height: 160%;
+    line-height: 1.6;
     font-weight: bold;
     text-align: center;
     font-size: 18px;
@@ -175,7 +177,8 @@ main+a{
     color: rgba(0, 0, 0, 0.5);
     right: 70px;
     bottom: 18px;
-    font-size: 2.5em;
+    font-size: 2.5em;;
+
 
 
 }
